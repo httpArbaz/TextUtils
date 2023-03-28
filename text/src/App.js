@@ -3,12 +3,13 @@ import './App.css';
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-
+import Hero from './components/heroSection/hero';
 
 
 function App() {
   const [mode, SetMode] = useState('light');
   const [alert, setAlert] = useState(null);
+  
 
   const showAlert = (message , type)=>{
     setAlert({
@@ -47,6 +48,7 @@ function App() {
 <div className="container my-3">
 <TextForm heading ="Enter The Text To Analyze Below" mode={mode}/>
 </div>
+<Hero/>
 </>
 )
 }

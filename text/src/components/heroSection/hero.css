@@ -1,0 +1,31 @@
+.myWorld{
+    color:red;
+    text-align: center;
+
+}
+
+
+.box{
+    width:450px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 200px auto 250px auto;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box > p{
+    text-align: center;
+}
+
+.button{
+    padding: 15px;
+    /* background-color: black; */
+    border-radius: 5px;
+    width: 60%;
+    height: 50px;
+
+}
